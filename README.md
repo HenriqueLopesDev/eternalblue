@@ -24,6 +24,7 @@
 - Como o foco do projeto era construir o Back-end em PHP para praticar os conceitos adquiridos durante a disciplina, demais partes, como o Front-End e o banco de dados, não tiveram tanta enfase. Diante disso, o projeto possui os seguinte problemas:
     - Falta de responsividade nas páginas.
     - Quando um select é executado no banco de dados, não há JOINS para retornar o conteúdo de mais de uma tabela. Por conta disso, é exibido o ID da chave estrangeira (em alguns pontos do projeto) e não a informação que deveria de fato ser exibida (nesta época eu ainda não conhecia alguns conceitos mais avançados de SQL, e por conta disso mantive mesmo assim).
+    - Os arquivos não estão organizados, o que dificulta a manutenção do código e a implementação de novas funcionalidades.
 
 ## Conclusão
 
