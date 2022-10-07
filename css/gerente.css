@@ -1,0 +1,128 @@
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url("Poppins-Regular.ttf"); 
+}
+
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url("Poppins-Bold.ttf"); 
+}
+
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url("Poppins-Medium.ttf"); 
+}
+
+body{
+    
+      background: #a64bf4;
+      background: -webkit-linear-gradient(right, #0089a1, #1B1F27, #0089a1, #1B1F27);
+      background: -o-linear-gradient(right, #0089a1, #1B1F27, #1B1F27, #1B1F27);
+      background: -moz-linear-gradient(right, #0089a1, #1B1F27, #0089a1, #1B1F27);
+      background: linear-gradient(right, #0089a1, #1B1F27, #1B1F27, #1B1F27);
+    font-family: Poppins;
+    overflow: hidden;
+    
+}
+
+.area{
+
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;    
+}
+
+.conteudo{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 300px;
+    width: 810px;
+    background: #181920;
+    border-radius: 12px;
+    background-color: #181920;
+    border-radius: 12px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #00FFFF;
+    -moz-box-shadow: 0px 3px 7px #86CEEB;
+    -webkit-box-shadow: 0px 3px 7px #86CEEB;
+}
+
+.botao{
+    
+    background-color: #1B1F27;
+    border-radius: 40px;
+    margin-right: 5px;
+    margin-left: 5px;
+    
+}
+
+.parte-cima{
+    
+    margin-top: 30px;
+    display: flex;
+    margin-bottom:15px;
+}
+
+.parte-baixo{
+    
+    display: flex;
+}
+
+.parte-interna{
+    
+  font-family: Poppins-Bold;
+  font-size: 16px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 50px;
+  background-image: linear-gradient(to right, #0089a1, #00faf2);
+  -webkit-background-clip: text;
+  text-shadow: 0px 0px 30px #ffffff;
+  border-radius: 40px;
+  border-width: 1px; 
+  border-style: solid;
+  border-color: #FFFFFF;
+  color: transparent;
+    
+}
+
+.parte-interna:hover{
+    
+    background-image: linear-gradient(to right, #FFFFFF, #FFFFFF);
+    cursor: pointer;
+    
+}
+
+.botao:hover{
+    
+    background-color: #232833;
+    transition: all .4s ease-out;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+.mensagem{
+    
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+h2{
+    
+    font-family: Poppins-Medium;
+    text-transform: uppercase;
+    font-size: 26px;
+    color: #FFFFFF;    
+}
